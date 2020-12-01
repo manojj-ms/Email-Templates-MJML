@@ -1,0 +1,33 @@
+<mjml>
+  <mj-head>
+    <mj-title>Email Title</mj-title>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <mj-attributes>
+      <mj-all font-family="'Montserrat',sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Montserrat',sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline"> .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); } </mj-style>
+    <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
+    <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
+  </mj-head>
+  <mj-body background-color="#E7E7E7" width="600px">
+    <mj-section padding-top="50"></mj-section>
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-column width="105%">
+            <mj-text padding-left="5px" font-weight="bold">
+              <p>(Product Name) listed by (Merchant/Live Seller ID no.) is now Live!</p>
+            </mj-text>
+          </mj-column>
+          <mj-image width="100px" src="logo.png" align="center" />
+        
+          <mj-text padding-left="55px">
+            <p> Please be informed that (Product Name), (Product No.), listed by (Merchant/Live Seller ID no.) is now live. 		
+				</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

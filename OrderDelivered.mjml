@@ -1,0 +1,142 @@
+<mjml>
+  <mj-head>
+    <mj-title>Email Title</mj-title>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <mj-attributes>
+      <mj-all font-family="'Montserrat',sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Montserrat',sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline"> .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); } </mj-style>
+    <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
+    <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
+  </mj-head>
+  <mj-body background-color="#E7E7E7" width="600px">
+    <mj-section padding-top="50"></mj-section>
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          
+          <mj-column width="75%">
+            <mj-text padding-left="5px" font-weight="bold">
+              <p>Your Order <span style="font-weight:10">(order no)</span> has been delivered!</p>
+            </mj-text>
+          </mj-column>
+          
+            <mj-image width="100px" src="logo.png" align="center"/>
+          
+         
+          <mj-text padding-left="150px" font-weight="bold" font-size="15px">
+            <p>Your Order has been delivered!</p>
+          </mj-text>
+          
+          <mj-text padding-left="50px">
+            <p>Hi (Name),</p>
+          
+          
+          
+            <p>Your order (order number) has been delivered on (date). Please check that all items in this order has been delivered, otherwise, do contact us by (date). If we don’t hear from you, payment will automatically be released to the sellers. 	</p>
+            
+          
+            <p>We hope you enjoyed shooting with us	</p>
+            
+            <p>Below your delivery and other details : </p>
+            
+          </mj-text>
+            
+                <mj-text padding-left="50px" text-decoration="underline"> 
+                  Delivery Details
+                  </mj-text>
+         <mj-text padding-left="50px"  padding-top="0px">Recipient Name: (Name)</mj-text>
+        <mj-text padding-left="50px" padding-top="0px">Phone: (Contact Number)</mj-text>
+        <mj-text padding-left="50px" padding-top="0px">Shipping Address: (Shipping Address)</mj-text>
+           <mj-text padding-left="50px" text-decoration="underline"> 
+                  Order Details
+                  </mj-text>
+         <mj-text padding-left="50px"  padding-top="0px">Seller Id No.:(Live Seller Id No.)</mj-text>
+          
+          
+          <mj-section>
+            <mj-column  vertical-align="top" padding="0 20px">
+              <mj-text padding="0 0 10px 32"><img class="block-edit" height="auto" src="http://placehold.it/500x550" style="border: 0; display: inline-block; outline: none; text-decoration: none; height:170px; width: 80%;" alt="" /></mj-text>
+            </mj-column>
+            
+            
+             <mj-column vertical-align="top" padding="0 0 0 0px">
+        <mj-text padding-left="0px" font-weight="bold" padding-top="10px">(Product Name)</mj-text>
+        <mj-text padding-left="0px" padding-top="10px">Product Variation(if applicable)</mj-text>
+        <mj-text padding-left="0px" padding-top="10px" color="#FFA500" font-weight="bold">(Price)</mj-text>
+         <mj-text padding-left="0px" padding-top="10px">Quantity: (No. of quantity)</mj-text>
+               
+  
+              
+                
+              
+     </mj-column>
+      </mj-section>
+           <mj-section>
+            <mj-column  vertical-align="top" padding="0 20px">
+              <mj-text padding="0 0 10px 32"><img class="block-edit" height="auto" src="http://placehold.it/500x550" style="border: 0; display: inline-block; outline: none; text-decoration: none; height:170px; width: 80%;" alt="" /></mj-text>
+            </mj-column>
+            
+            
+             <mj-column vertical-align="top" padding="0 0 0 0px">
+        <mj-text padding-left="0px" font-weight="bold" padding-top="10px">(Product Name)</mj-text>
+        <mj-text padding-left="0px" padding-top="10px">Product Variation(if applicable)</mj-text>
+        <mj-text padding-left="0px" padding-top="10px" color="#FFA500" font-weight="bold">(Price)</mj-text>
+         <mj-text padding-left="0px" padding-top="10px">Quantity: (No. of quantity)</mj-text>
+               
+               
+  
+              
+                
+              
+     </mj-column>
+      </mj-section>
+          
+          <mj-table font-size="16px" line-height="24px" font-family="'Montserrat',sans-serif">
+          <tr >
+             <th style="padding: 0 80px 0 0px;font-weight:10">Subtotal:</th>
+            <th style="padding: 0 80px 0 0px;font-weight:10">(Subtotal Value)</th>
+          </tr>
+          <tr >
+             <th style="padding: 0px 70px 0px 24px;font-weight:10";>Shipping fee:</th>
+             <th style="padding: 0px 95px 0px 0px;font-weight:10">(Shipping fee)</th>
+          </tr>
+          <tr >
+             <th style="padding: 0px 120px 0px 0px;font-weight:10">Tax:</th>
+            <th style="padding: 0px 190px 0px 55px	;font-weight:10">Included</th>
+           
+             
+          </tr>
+           <tr >
+             <th style="padding: 0px 107px 0px 0px;">Total:</th>
+            
+           <th style="padding: 0px 60px 0px 15px;color:#FFA500">SGD (Total Amount)</th>
+             
+          </tr>
+          </mj-table>
+          
+          <mj-section>
+               <mj-column>
+              <mj-text text-decoration="underline" href="#" padding-left="55px" >
+                
+                Have Questions?
+              </mj-text>
+            
+               <mj-text padding-left="55px">
+               <p>If you need help with anything, we've got some answers for you on our <span style="text-decoration:underline" href="#" >FAQ page,</span> alternatively click on the button below to get in touch with us! </p>
+              </mj-text>
+                 </mj-column>
+               </mj-section>
+              <mj-column width="100%">
+              <mj-button href="#" background-color="#8cbed6" align="center" border="1px solid black" font-weight="bold" padding-top="0px" color="black"  >
+            Contact us
+           </mj-button>
+                
+              </mj-column>
+          
+           <mj-text align="center"font-size="11px" padding-left="55px"  >This is a automatically generated service email, and you are receiving it regardless of your marketing communication preferences. Please do not reply to this email.
+              </mj-text>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

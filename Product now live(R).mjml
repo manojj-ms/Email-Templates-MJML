@@ -1,0 +1,54 @@
+<mjml>
+  <mj-head>
+    <mj-title>Email Title</mj-title>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <mj-attributes>
+      <mj-all font-family="'Montserrat',sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Montserrat',sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline"> .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); } </mj-style>
+    <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
+    <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
+  </mj-head>
+  <mj-body background-color="#E7E7E7" width="600px">
+    <mj-section padding-top="50"></mj-section>
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-column width="105%">
+            <mj-text padding-left="5px" font-weight="bold">
+              <p>(Product Name) is now live, Happy Selling!</p>
+            </mj-text>
+          </mj-column>
+          <mj-image width="100px" src="logo.png" align="center" />
+          <mj-text padding-left="95px" font-weight="bold" font-size="15px">
+            <p>(Product Name) is now live, You may start Selling </p>
+          </mj-text>
+          <mj-text padding-left="50px">
+            <p>Hi (Name),</p>
+            <p>(Product Name) is now live, You may start Selling. </p>
+            <p>If you have not already generated your unique selling link, follow the steps below:  </p>
+            <p>Generate your unique selling link for (Product Name), in order to start selling once the product has gone Live. Follow the steps below:  </p>
+            <p>1. Log in to your Sellr Merchant/Live Seller account </p>
+            <p>2. Access <span style="font-weight:bold">Selling page,</span> and click on the button <span style="font-weight:bold">"Generate Link"</span> under the newly added product <span style="font-weight:bold">(Product Name).</span> </p>
+            <p>3. Set the <span style="font-weight:bold">discount percentage</span> for (product name), which also determines your selling price and commission to be received per product sold. </p>
+            <p>4. Generate the link, and you're all set to start selling once the product is Live!</p>
+            <p>Happy Selling!</p>
+          </mj-text>
+          <mj-section>
+            <mj-column>
+              <mj-text text-decoration="underline" href="#" padding-left="55px" padding-top="0px"> Have Questions? </mj-text>
+              <mj-text padding-left="55px" padding-top="0px">
+                <p>If you need help with anything, we've got some answers for you on our <span style="text-decoration:underline" href="#">FAQ page,</span> alternatively click on the button below to get in touch with us! </p>
+              </mj-text>
+            </mj-column>
+          </mj-section>
+          <mj-column width="100%">
+            <mj-button href="#" background-color="#8cbed6" align="center" border="1px solid black" font-weight="bold" padding-top="0px" color="black"> Contact us </mj-button>
+          </mj-column>
+          <mj-text align="center" font-size="11px" padding-left="55px">This is a automatically generated service email, and you are receiving it regardless of your marketing communication preferences. Please do not reply to this email. </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
